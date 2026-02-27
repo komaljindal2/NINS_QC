@@ -104,7 +104,7 @@ Directory Structure Requirements
 The script expects this directory structure:
 text
 
-/home/ninslab/Desktop/Gangotri_15_06_22/django-apps/testsite/QC_folder/MRI/
+folder_name/QC_folder/MRI/
 ├── Subject_1/
 │   ├── HU_0.nii
 │   └── [other .nii files]
