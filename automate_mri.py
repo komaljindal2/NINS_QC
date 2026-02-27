@@ -29,7 +29,7 @@ import os
 import nipype.interfaces.spm as spm
 os.environ['SPM_PATH']='/media/ninslab/DATA1/spm12'
 spm.SPMCommand.set_mlab_paths(paths=os.environ['SPM_PATH'])
-direc="/home/ninslab/Desktop/Gangotri_15_06_22/django-apps/testsite/QC_folder/MRI/*"
+direc="folder_name/QC_folder/MRI/*"
 folder = sorted(glob.glob(direc))
 for z in range(len(folder)):
     sub = sorted(glob.glob(folder[z]+"/*"))
